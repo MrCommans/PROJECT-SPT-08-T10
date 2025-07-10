@@ -1,5 +1,4 @@
-# Recupera o código do telefone. Não mude
-# O arquivo deve permanecer completamente inalterado
+
 
 def retrieve_phone_code(driver) -> str:
 
@@ -25,7 +24,7 @@ def retrieve_phone_code(driver) -> str:
                             "Use retrieve_phone_code somente depois que o código for solicitado em seu aplicativo.")
         return code
 
-# Verifica se o Routes está ativo e funcionando. Não mude
+
 def is_url_reachable(url):
 
 
