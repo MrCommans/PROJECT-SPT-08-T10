@@ -1,5 +1,3 @@
-# Recupera o código do telefone. Não mude
-# O arquivo deve permanecer completamente inalterado
 
 def retrieve_phone_code(driver) -> str:
     """Este código recupera o número de confirmação do telefone e o retorna como uma string.
@@ -27,7 +25,7 @@ def retrieve_phone_code(driver) -> str:
                             "Use retrieve_phone_code somente depois que o código for solicitado em seu aplicativo.")
         return code
 
-# Verifica se o Routes está ativo e funcionando. Não mude
+
 def is_url_reachable(url):
     """Verifique se a URL pode ser acessada. Passe a URL do Urban Routes como parâmetro.
     Se puder ser alcançada, retorna True (verdadeiro), caso contrário, retorna False (falso)"""
